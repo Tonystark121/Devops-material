@@ -25,3 +25,16 @@ Type of Hypervisors:
 
 
 👍👍👍👍👍👍 Thumb Rule -> If you want to automate something make sure you know how to do it manually.
+
+
+Steps to create VM:
+    1. Install Hypervisor on Host OS. (Oracle VitualBox, VMware Workstation for Type 2; VMware ESXi, Microsoft Hyper-V for Type 1)
+    2. Iso file -> centos, ubuntu
+    3. Login tool -> Git bash and putty
+    2. Create a new VM and allocate resources (CPU, RAM, Disk).
+    3. Install Guest OS on the VM.
+    4. Install necessary drivers and tools for better performance.
+    5. Configure network settings for the VM.
+    6. Install required applications and services on the Guest OS.
+    7. Take a snapshot of the VM for future reference.
+
