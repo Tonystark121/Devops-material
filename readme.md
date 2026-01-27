@@ -38,3 +38,84 @@ Steps to create VM:
     6. Install required applications and services on the Guest OS.
     7. Take a snapshot of the VM for future reference.
 
+
+
+Linux:
+    1. intro to linux
+    2. Basic commands in linux
+    3. understanding file in linux
+    4. Files and redirection
+    5. Users & Group
+    6. Sudo
+    7. Software Management
+    8. Services & process
+    9. Good to know commands 
+    10. Server Management
+
+
+Basically we will be focusing 4 areas in Linux:
+    1. Commands
+    2. Files
+    3. Sofware Management
+    4. Server Management
+
+Linux -> Open source OS/Kernal
+In 1984, The GNU project and Free Software Foundation
+    Creates Open source version of UNIX utilities
+    Create the General Public License (GPL)
+        Software License enforcing open source principles.
+In 1991, Linus Torvalds
+    Creates Open Source, Unix like Kernal released Under the GPL
+    Port Some GNU Utilities, Solicits assistance online
+
+Today, 
+    Linux Kernal + GNU utilities = complete Open source unix like OS.
+    Packaged for targated audiances as distribution.
+
+Linux Principles:
+    1. Everything is file (including hardware)
+    2. Small single purpose programs. (one thing at a time.)
+    3. Ability to chain program together for complex operation.
+    4. Avoid Captive User interface.(make less user interation)
+    5. Configured data stored in text file. (we don't need to go to setting change things. just edit file and things are done.)
+
+Why Linux:
+    1. Open source
+    2. Community Support
+    3. Support Wide range of Hardware
+    4. Customization
+    5. Most servers runs on linux
+    6. Automation
+    7. Security
+
+
+Popular Linux distros:
+    1. Ubuntu
+    2. Linux Mint
+    3. Arch Linux
+    4. Fedora
+    5. Debian 
+    6. Open Suse
+
+Popular Server Linux OS
+    1. Red Hat Enterprise Linux (not open source)
+    2. Ubuntu Server
+    4. CentOS
+    4. Suse Enterprise Linux
+
+Most used Linux distros currently in IT industry.
+    1. RPM based : RHEL, CentOS, Oracle, Amazon Linux
+    2. Debian based : Ubuntu Server, Kali Server.
+        the major difference b/w to family of linux is packing method of softwares.
+
+Some Important Libraries:
+    1. Home Directories -> /root, /home/username
+    2. User Executible -> /bin, /usr/bin, /usr/local/bin
+    3. System Executible -> /sbin, /usr/sbin, /usr/local/sbin
+    4. Other Mountpoints -> /media, /mnt
+    5. Configuration -> /etc
+    6. Temporary Files -> /tmp
+    7. Kernels & Bootloaders -> /boot
+    8. Server Data -> /var, /srv
+    9. System Information -> /proc, /sys
+    10. Shared Libraries -> /lib, /usr/lib, /usr/local/lib
