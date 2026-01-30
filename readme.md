@@ -119,3 +119,15 @@ Some Important Libraries:
     8. Server Data -> /var, /srv
     9. System Information -> /proc, /sys
     10. Shared Libraries -> /lib, /usr/lib, /usr/local/lib
+
+
+###### Commands and File System
+
+cd / -> root director
+pwd -> gives present working directory
+ls -> list of all items in that directory
+cd -> get us back to main directory
+/sbin -> contains executable cmd by root user.
+
+three things in Linx Commands -> Commads options arguments 
+
