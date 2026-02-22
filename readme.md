@@ -130,4 +130,22 @@ cd -> get us back to main directory
 /sbin -> contains executable cmd by root user.
 
 three things in Linx Commands -> Commads options arguments 
-
+1. grep rajeev(text to find) fileName 
+    Linux is case sensitive
+2. grep Rajeev(text to find) fileName 
+3. if want all use grep -i text filename
+4. if we want to search in all directory
+    grep -i rajeev * -> this will search in each file in folder, not in folders in folder
+5. cp a/notes.txt b/readme.txt -> copy a file from source to destination
+6. grep -iR rajeev * -> this will search in each file in folder, also in folders in folder
+7. grep -R SELINUX /etc/* -> find word SELINUX in everthing inside /etc folder
+8. to open any file in vim editor -> vim filePath
+9. grep -vi rajeev /etc/* -> do not find anything which contain rajeev.
+10. less fileName -> opens reader mode of file, also can search /keyword
+11. more fileName -> opens reader mode too with some effect. use and see.
+12. head fileName -> shows first 10 lines
+13. head -n fileName -> shows first n lines
+14. tail is opposite to head. one imp use tail -f fileName which shows dynamic contain and latest changes which help to keep track of logs.
+15. cat /etc/passwd -> contain all info related to user
+16. sed '/rajeev/ranjan/g' * -> this will replace all rajjev to ranjan present anywhere in the folder. this will not change it
+        if you want to change use sed -i '/rajeev/ranjan/g' *
